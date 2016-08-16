@@ -1,0 +1,124 @@
+
+/* basic set of font colors */
+    .dkgry{color:#333333;}
+    .cfblue{color:cornflowerblue;}
+    .gryblu{color:#3B6AA0}
+    .orngred{color:#FF4500;}
+    .bkred{color: #7F1818;}
+    .wht{color: white;}
+    .nvy{color:navy;}
+/* text font background scheme */
+    .orangewhite{
+        color:white;
+        background: linear-gradient(rgb(255, 71, 26),rgb(230, 46, 0));
+    }
+    .bluewhite{
+        color: white;
+        background: linear-gradient(rgb(0, 117, 153),rgb(0, 156, 204));
+    }
+    .fgrnwhite{
+        color: white;
+        background: linear-gradient(#228B22),green);
+    }
+    .goldblk{
+        color: black;
+        background: linear-gradient(yellow,gold,yellow);
+    }
+/*classes to format links */
+    /* no-underline link (default color) */
+    .noul:link{
+        text-decoration: none;
+    }
+    .noul:visited{
+        text-decoration: none;
+    }
+    /*grey-blue no-underline links */
+    .noulgryblu:link{
+        color: #3B6AA0;
+        text-decoration: none;
+    }
+    .noulgryblu:visited{
+        color: #3B6AA0;
+        text-decoration: none;
+    }
+    /*grey-blue links with underline */
+    .gryblu:link{
+        color: #3B6AA0;
+        text-decoration: underline;
+    }
+    .gryblu:visited{
+        color: #3B6AA0;
+        text-decoration: underline;
+    }
+    /*cornflower-blue no-underline links */
+    .noulcfblu:link{
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+    .noulcfblu:visited{
+        color: cornflowerblue;
+        text-decoration: none;
+    }
+    /*cornflower-blue links with underline */
+    .cfblu:link{
+        color: cornflowerblue;
+        text-decoration: underline;
+    }
+    .cfblu:visited{
+        color: cornflowerblue;
+        text-decoration: underline;
+    }
+    /*brick-red links no-underline */
+    .noulbkred:link{
+        color: #7F1818;
+        text-decoration: none;
+    }
+    .noulbkred:visited{
+        color: #7F1818;
+        text-decoration: none;
+    }
+    /*brick-red links with underline */
+    .bkred:link{
+        color: #7F1818;
+        text-decoration: underline;
+    }
+    .bkred:visited{
+        color: #7F1818;
+        text-decoration: underline;
+    }
+    /*black no-underline links */
+    .noulblk:link{
+        color: black;
+        text-decoration: none;
+    }
+    .noulblk:visited{
+        color: black;
+        text-decoration: none;
+    }
+    /*black links with underline */
+    .blk:link{
+        color: black;
+        text-decoration: underline;
+    }
+    .blk:visited{
+        color: black;
+        text-decoration: underline;
+    }
+    /*orange-red no-underline links */
+    .noulorngred:link{
+        color: #FF4500;
+        text-decoration: none;
+    }
+    .noulorngred:visited{
+        color: #FF4500;
+        text-decoration: none;
+    }
+    /*orange-red links with underline */
+    .orngred:link{
+        color: #FF4500;
+        text-decoration: underline;
+    }
+    .orngred:visited{
+        color: #FF4500;
+        text-decoration: underline;
+    }

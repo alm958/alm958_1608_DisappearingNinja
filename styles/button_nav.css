@@ -1,0 +1,83 @@
+/* horizontal nav bar*/
+    /* set p in the nav to inline to facilitate separator distinct from links
+    the a margin-left needs to be 5px greated than */
+    nav p{display: inline; margin-right:10px;}
+    nav a{margin-left: 15px}
+    /*normal default for nav tag is block but it
+    is set here to inline-block*/
+    nav{
+        display:inline-block;
+        margin:0 5px 5px 5px; /* position the nav bar  */
+        padding:0px 10px 5px 10px; /* pad the grouped-elements */
+        background-color: grey;
+        background: linear-gradient(grey,silver,grey);
+        border: 1px solid black;
+        border-radius: 0px 0px 10px 6px; /* toplft toprt btmrt  btlft */
+    }
+/*collection of buttons to use and modify as needed*/
+.inlnbut01{
+    display: inline;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(rgb(173, 235, 173),rgb(50, 205, 50),rgb(173, 235, 173));
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:white;
+    text-decoration: none;
+}
+.inlnbut02{
+    display: inline;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(silver,grey,silver);
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:white;
+    text-decoration: none;
+}
+.inlnbut03{
+    display: inline;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(gold,yellow,orange);
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:navy;
+    text-decoration: none;
+}
+.blockbut01{
+    display: inline;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(rgb(173, 235, 173),rgb(50, 205, 50),rgb(173, 235, 173));
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:white;
+    text-decoration: none;
+}
+.blockbut02{
+    display: inline;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(silver,grey,silver);
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:white;
+    text-decoration: none;
+}
+.blockbut03{
+    display: block;
+    margin: 10px 0px 2px 10px;
+    padding: 6px 20px;
+    background: linear-gradient(gold,yellow,orange);
+    border-radius: 9px;
+    font-size: 0.8em;
+    border:1px solid grey;
+    color:navy;
+    text-decoration: none;
+}

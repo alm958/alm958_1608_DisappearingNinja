@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic Frame practice</title>
+        <script src= 'https://code.jquery.com/jquery-2.2.4.js'></script>
+        <script>
+        $(document).ready(function(){
+
+            $(".hidden").hide()
+
+            $('.hd').click(function(){
+                $(this).hide(700);
+            })
+            $('.hidden').click(function(){
+                $(this).hide(700);
+            })
+            $('#reld').click(function() {
+                location.reload();
+            })
+
+            $('#hd1').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd1').dblclick(function(){
+                $('#hdn1').show();
+            })
+            $('#hdn1').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn1').dblclick(function(){
+                $('#hd1').show();
+            })
+            $('#hd2').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd2').dblclick(function(){
+                $('#hdn2').show();
+            })
+            $('#hdn2').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn2').dblclick(function(){
+                $('#hd2').show();
+            })
+            $('#hd3').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd3').dblclick(function(){
+                $('#hdn3').show();
+            })
+            $('#hdn3').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn3').dblclick(function(){
+                $('#hd3').show();
+            })
+            $('#hd4').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd4').dblclick(function(){
+                $('#hdn4').show();
+            })
+            $('#hdn4').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn4').dblclick(function(){
+                $('#hd4').show();
+            })
+            $('#hd5').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd5').dblclick(function(){
+                $('#hdn5').show();
+            })
+            $('#hdn5').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn5').dblclick(function(){
+                $('#hd5').show();
+            })
+            $('#hd6').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd6').dblclick(function(){
+                $('#hdn6').show();
+            })
+            $('#hdn6').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn6').dblclick(function(){
+                $('#hd6').show();
+            })
+            $('#hd7').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd7').dblclick(function(){
+                $('#hdn7').show();
+            })
+            $('#hdn7').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn7').dblclick(function(){
+                $('#hd7').show();
+            })
+            $('#hd8').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hd8').dblclick(function(){
+                $('#hdn8').show();
+            })
+            $('#hdn8').dblclick(function(){
+                $(this).hide();
+            })
+            $('#hdn8').dblclick(function(){
+                $('#hd8').show();
+            })
+        });
+    </script>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/div.css">
+        <link rel="stylesheet" type="text/css" href="styles/text.css">
+        <link rel="stylesheet" type="text/css" href="styles/button_nav_img.css">
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="center">
+                <h2>Click to hide these wax wonders if you must.</h2>
+                <h2>OR...double-click for more fun</h2>
+                <div class="centblk">
+                    <img id="hd1" class="hd" src="images/30.jpg" alt="">
+                    <img id="hdn1" class="hidden" src="images/commies.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd2" class="hd" src="images/wft01.jpg" alt="">
+                    <img id="hdn2" class="hidden" src="images/confidence.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd3" class="hd" src="images/poodles.jpg" alt="">
+                    <img id="hdn3" class="hidden" src="images/dont pity me.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd4" class="hd" src="images/thx for the dove.jpg" alt="">
+                    <img id="hdn4" class="hidden" src="images/ken.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd5" class="hd" src="images/acdccover.jpg" alt="">
+                    <img id="hdn5" class="hidden" src="images/orion.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd6" class="hd" src="images/can-i-borrow-a-feeling-worst-album-covers.jpg" alt="">
+                    <img id="hdn6" class="hidden" src="images/polka01.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd7" class="hd" src="images/pompador.jpg" alt="">
+                    <img id="hdn7"class="hidden" src="images/redmeatxmass.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <div class="centblk">
+                    <img id="hd8" class="hd" src="images/awkward-album1.jpg" alt="">
+                    <img id="hdn8" class="hidden"src="images/still more.jpg" alt="" >
+                </div> <!--end of center blk inline-block-->
+                <p id="reld" class="blockbut01">Click to reset / retore origional images</p>
+            </div> <!-- end of center -->
+        </div><!-- end of wrap -->
+    </body>
+</html>

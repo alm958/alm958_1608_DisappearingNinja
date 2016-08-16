@@ -1,0 +1,32 @@
+/* insert and format separators for nav bar
+if more than one nav bar format is needed add
+a leading tag, id, or class to distinguish */
+/* set separator character */
+nav a:before {
+content: "|";
+color: blue; /* comment out color to use default */
+margin: 15px; /* set spacing between elements. Insure to adjust for first and last element below */
+text-decoration: none;
+}
+/* css below adds separator before first element
+(set content to empty "" to eliminate
+separator before first element) */
+nav a:first-child:before {
+content: "|";
+margin: 15px 15px 15px 5px;  /* typically the same as margin in nav a:before */
+text-decoration: none;
+}
+/* css below adds separator after last element
+(comment-out this css code to exclude
+separator after last element) */
+nav a:last-child:after {
+content: "|";
+color: blue;
+margin-left:15px; /* typically the same as margin in nav a:before */
+text-decoration: none;
+}
+nav a:before:link{text-decoration: none;}
+nav a:before:visited{
+    text-decoration: none;
+
+}

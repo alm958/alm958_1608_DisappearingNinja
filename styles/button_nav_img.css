@@ -1,0 +1,13 @@
+
+    .blockbut01{
+        display: block;
+        margin: 10px;;
+        padding: 6px 20px;
+        background: linear-gradient(cyan,blue,cyan);
+        border-radius: 9px;
+        font-size: 0.8em;
+        border:1px solid blue;
+        color:white;
+        text-decoration: none;
+        text-align: center;
+    }
